@@ -1,0 +1,94 @@
+/* Week 3 external CSS: colors + fonts + ID selector */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif; /* Fonts requirement */
+  background: #0f172a; /* Color requirement */
+  color: #e2e8f0;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 900px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+.site-header {
+  padding: 28px 16px;
+  text-align: center;
+  background: #111827;
+  border-bottom: 2px solid #1f2937;
+}
+
+#main-title { /* ID requirement */
+  margin: 0;
+  font-size: 2rem;
+  letter-spacing: 0.5px;
+  color: #38bdf8;
+}
+
+.site-header p {
+  margin: 8px 0 0;
+  color: #94a3b8;
+}
+
+.card {
+  background: #111827;
+  border: 1px solid #1f2937;
+  border-radius: 14px;
+  padding: 16px;
+  margin: 16px 0;
+}
+
+.card h2 {
+  margin-top: 0;
+  color: #a78bfa;
+}
+
+.media {
+  margin: 12px 0 0;
+}
+
+.media img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid #1f2937;
+  display: block;
+}
+
+.media figcaption {
+  margin-top: 8px;
+  color: #94a3b8;
+  font-size: 0.95rem;
+}
+
+.pretty-list {
+  padding-left: 18px;
+}
+
+.pretty-list li {
+  margin: 6px 0;
+}
+
+a {
+  color: #22c55e;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.site-footer {
+  text-align: center;
+  padding: 18px 16px;
+  color: #94a3b8;
+  border-top: 1px solid #1f2937;
+  margin-top: 18px;
+}
